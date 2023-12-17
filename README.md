@@ -10,4 +10,6 @@ Step-by-Step
 4. Spawn the downloaded vehicle down
 5. Look at your web cam in game :D
 
+Get the vehicle from Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3116606491
+
 DO NOT REUPLOAD Code or Vehicle, I give permission to modify it!
