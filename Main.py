@@ -41,6 +41,8 @@ def speed1():
         captured_rgb_values = capture_frame()
         formatted_first_part, _ = split_and_format(captured_rgb_values)
         return formatted_first_part
+    
+    return "Invalid speed parameter provided."
 
 @app2.route('/')
 def speed2():
@@ -50,6 +52,8 @@ def speed2():
         captured_rgb_values = capture_frame()
         _, formatted_second_part = split_and_format(captured_rgb_values)
         return formatted_second_part
+    
+    return "Invalid speed parameter provided."
 
 if __name__ == '__main__':
     app1.run(host='0.0.0.0', port=80, debug=True)
